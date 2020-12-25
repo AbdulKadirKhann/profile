@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin:0;
+    padding:0;
+    background-color:black
+}
+
+.navbar{
+    background-color:rgba(0,0,0,1) !important
+    
+      
+}
+
+.brandname{
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: 3.5vw;
+    color:#50ff24  !important;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.nav-link{
+
+    font-family: 'Roboto Slab', serif;
+    color:#50ff24  !important;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.6s;
+    margin-right: 1vw;
+
+}
+
+.nav-link:hover{
+
+    font-family: 'Roboto Slab', serif;
+    color:#e5e5e5 !important;
+    font-weight: bolder;
+    border-bottom: 5px solid #50ff24 ;
+    
+}
+
+a:visited{
+
+    font-family: 'Andika New Basic', sans-serif;
+    
+    font-weight: bolder;
+    border-bottom: 5px solid #50ff24 ;
+    
+}
+
+
+.profilepic{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: visible;
+    margin-top:35px;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+    
+    
+}
+
+
+.homeshape{
+    background-color: #50ff24 ;
+}
+
+.tagline{
+    position: absolute;
+    bottom:50%;
+    right: 5%;
+    font-size: 3.5vw;
+    color:#50ff24  !important;
+    padding:4px;
+    background-color:rgba(159, 231, 144, 0.1);
+    border-radius:  12px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.aboutme{
+    padding:50px;
+    text-align: center;
+    text-transform: capitalize;
+    color:#50ff24
+}
+
+.card-img-top{
+
+    height:200px;
+    width:200px;
+    margin:20px;
+
+
+}
+
+.card{
+    background-color: black;
+    color:#50ff24
+}
+
+.headings{
+    background-color: black;
+    color:#50ff24;
+    text-decoration:underline;
+    text-underline-position: under;
+    font-family: 'Bangers', cursive;
+    margin-bottom:50px;
+}
+
+.card-img-top{
+
+    border-radius:30px
+
+}
+
+
+
+.skills{
+    padding:15px !important;
+}
+
+.carousel-item >img{
+    height:500px;
+    width:600px;
+    padding:30px;
+    box-shadow: inset 0px 0px 150px 60px rgba(0,0,0,1);
+    text-align: center;
+}
+
+i{
+    color:#50ff24;
+    
+}
+
+.home {
+    margin-bottom: 100px;
+}
+.aboutme{
+    margin-bottom: 100px;
+}
+.services{
+    margin-bottom: 100px;
+}
+.skills{
+    margin-bottom: 100px;
+}
+.galary{
+    margin-bottom: 120px;
+}
+
+.email{
+    color:white;
+    margin-bottom:40px;
+}
+.whitetext{
+    color:#e5e5e5;
+    font-weight: bolder;
+}
+
+.footer{
+    height:60px;
+    width: 100%;
+    margin-top:30px;
+    padding-top:22px;
+    background-color: #50ff24;
+    opacity:0.8;
+    font-weight:bolder;
+    
+
+}
+
+.cardborder{
+    border: 2px solid  #50ff24;
+    
+}
